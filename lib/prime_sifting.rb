@@ -1,14 +1,24 @@
 class Prime
+  prime_array = []
   def array_creator(number)
     input_array = (2..number).to_a
+    prime_times(input_array)
+  end
+  def prime_times(array)
+    base_primes = [2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97]
+    base_primes.each() do |num|
+      array.each() do |element|
+        if (element > num) && (element % num == 0)
+          array.delete(element)
+        end
+      end
+    end
+    prime_array = array
+    puts "Here's your Array! #{prime_array}"
+    puts "You found #{prime_array.length} beautiful Prime Numbers, now that's Prime Time!"
   end
 end
 
-
-
-# array.new() { |i| i+1 }
-# > Array.new(10) {|i| i+1 }
-# => [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 
 
@@ -22,6 +32,5 @@ end
 
 # range = 2..100
 # prime = 0
-# range.each do |number|
-#   if number > 2 && number % 2 == 0
-#     prime += number
+# range.each do |i|
+#   if i > 2 && i % 2 == 0

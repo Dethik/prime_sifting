@@ -1,13 +1,13 @@
 # Prime Sifting Tdd
 #### *Co-Created By: Andrew Lawson*
 #### *Co-Created By: Zack Rutledge*
-#### *Co-Created By: *
+#### *Co-Created By: Jo Miller*
 #### *Prime Sifting With TDD*
 
 * * *
 
 ## Description
-This is an application for learning TDD with ruby while attending Epicodus coding school.
+This is an application for learning TDD with ruby while attending Epicodus coding school. Users can input a number into the terminal and receive an array of prime numbers leading up to the number entered.
 * * *
 
 ## Technologies used
@@ -21,7 +21,7 @@ This is an application for learning TDD with ruby while attending Epicodus codin
 ### Want to see this webpage now?
 ###### See this web page in action on [Github Pages]({repo})
 
-* Go to ( https://github.com/andyL89/rock_paper_scissors ).
+* Go to ( https://github.com/andyL89/prime_sifting ).
 
 *  Navigate to the code button on the github website.
 
@@ -37,7 +37,7 @@ This is an application for learning TDD with ruby while attending Epicodus codin
 
 - Once you have chosen your desired directory use the command.
 ```bash
-git clone https://github.com/andyL89/rock_paper_scissors.git
+git clone https://github.com/andyL89/prime_sifting.git
 ```
 
 <div
@@ -84,7 +84,7 @@ code .
 * * *
 
 ## License:
-> *&copy; Andrew Lawson, Zack Rutledge,   2021*
+> *&copy; Andrew Lawson, Zack Rutledge, Jo Miller 2021*
 
 Licensed under [MIT license](https://mit-license.org/)
 
@@ -92,5 +92,5 @@ Licensed under [MIT license](https://mit-license.org/)
 
 ## Contact Information
 _Andy Lawson: [Email](alawson89@gmail.com)_
-_ [Email]()_
+_Jo Miller [Email](joannadawnmiller@gmail.com)_
 _Zack Rutledge [Email](Thorgrim88@gmail.com)_

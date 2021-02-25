@@ -14,8 +14,8 @@ class Prime
       end
     end
     prime_array = array
-    puts "Here's your Array! #{prime_array}"
-    puts "You found #{prime_array.length} beautiful Prime Numbers, now that's Prime Time!"
+    puts "Here you go! #{prime_array}"
+    puts "I found #{prime_array.length} beautiful Prime Numbers, now that's Prime Time!"
   end
 end
 
